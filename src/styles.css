@@ -1,0 +1,25 @@
+@import './fonts.css';
+@import url('../src/variables/variables.css');
+
+*{
+    font-family: var(--font-family);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--bg-color);  
+    color: #333;
+}
+
+h1{
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+@media screen and (max-width: 480px){
+    h1{
+        font-size: 1.5rem;
+    }
+}
